@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+
+@media screen and (min-width: 992px) {
+
+#formacion {
+    min-height: 100vh;
+    padding: 100px 20px;
+}
+
+#formacion h2{
+    text-align: center;
+    padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+.formacion__cards {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.button.large {
+    margin: 0;
+    padding: 2rem;
+}
+
+.button.large a{
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.button.large small{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.panel p {
+    font-size: 0.75rem;
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+    width: 80%;
+}
+
+.panel a {
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+.panel a:hover {
+    text-decoration: none;
+}
+
+.button.large small {
+    margin-top: -0.5rem;
+    font-style: italic;
+}
+
+.flip-cards {
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding-left: 1rem;
+}
+
+.flip-cards li {
+    float: left;
+    width: 33.3%;
+    height: 200px;
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.flip-cards li:hover {
+    cursor: pointer;
+}
+
+.flip-cards li:hover .card-front {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-transform: perspective(1000) rotateY(180deg);
+    -moz-transform: perspective(1000) rotateY(180deg);
+    -ms-transform: perspective(1000) rotateY(180deg);
+    -o-transform: perspective(1000) rotateY(180deg);
+    transform: perspective(1000) rotateY(180deg);
+}
+
+.flip-cards li:hover .card-back {
+    z-index: 950;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform: perspective(1000) rotateY(0deg);
+    -moz-transform: perspective(1000) rotateY(0deg);
+    -ms-transform: perspective(1000) rotateY(0deg);
+    -o-transform: perspective(1000) rotateY(0deg);
+    transform: perspective(1000) rotateY(0deg);
+}
+
+.flip-cards .card-front,
+.flip-cards .card-back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 1.5s;
+    -moz-transition: -moz-transform 1.5s;
+    -o-transition: -o-transform 1.5s;
+    transition: transform 1.5s;
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.flip-cards .card-front {
+    -webkit-transform: perspective(1000) rotateY(0);
+    -moz-transform: perspective(1000) rotateY(0);
+    -ms-transform: perspective(1000) rotateY(0);
+    -o-transform: perspective(1000) rotateY(0);
+    transform: perspective(1000) rotateY(0);
+    z-index: 900;
+}
+
+.flip-cards .card-back {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    z-index: 800;
+}
+
+.flip-cards .panel {
+    border: none;
+}
+
+.flip-cards .panel p,
+.flip-cards .panel a {
+    color: white;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+.flip-cards li:first-child>.button {
+    background-color: #073b4cc2;
+}
+
+.flip-cards li:first-child>.panel {
+    background-color: #073b4c;
+}
+
+
+.flip-cards li:nth-child(2)>.button {
+    background-color: #06d69ec4;
+}
+
+.flip-cards li:nth-child(2)>.panel {
+    background-color: #06d6a0;
+}
+
+
+.flip-cards li:nth-child(3)>.button {
+    background-color: #ffd166e1;
+}
+
+.flip-cards li:nth-child(3)>.panel {
+    background-color: #ffd166;
+}
+
+
+.flip-cards li:nth-child(4)>.button {
+    background-color: #ef476ece;
+}
+
+.flip-cards li:nth-child(4)>.panel {
+    background-color: #ef476f;
+}
+
+
+.flip-cards li:nth-child(5)>.button {
+    background-color: #118ab2d5;
+}
+
+.flip-cards li:nth-child(5)>.panel {
+    background-color: #118ab2;
+}
+
+
+.flip-cards li:last-child>.button {
+    background-color: #8d0801ce;
+}
+
+.flip-cards li:last-child>.panel {
+    background-color: #8d0801e1;
+    color: white;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    #formacion {
+        min-height: 100vh;
+        padding: 50px 20px;
+    }
+    
+    #formacion h2{
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    
+    .formacion__cards {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .button.large {
+        margin: 0;
+        padding: 2rem;
+    }
+    
+    .button.large a{
+        font-family: 'Archivo', sans-serif;
+        color: white;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .button.large small{
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 100;
+    }
+    
+    .panel p {
+        font-size: 0.75rem;
+        margin-left: 2rem;
+        margin-top: 1.8rem;
+        width: 80%;
+    }
+    
+    .panel a {
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+    }
+    
+    .panel a:hover {
+        text-decoration: none;
+    }
+    
+    .button.large small {
+        margin-top: -0.5rem;
+        font-style: italic;
+    }
+    
+    .flip-cards {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .flip-cards li {
+        width: 100%;
+        height: 250px;
+        font-size: 1.35rem;
+        position: relative;
+        list-style: none;
+    }
+    
+    .flip-cards li:hover {
+        cursor: pointer;
+    }
+    
+    .flip-cards li:hover .card-front {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        -webkit-transform: perspective(1000) rotateY(180deg);
+        -moz-transform: perspective(1000) rotateY(180deg);
+        -ms-transform: perspective(1000) rotateY(180deg);
+        -o-transform: perspective(1000) rotateY(180deg);
+        transform: perspective(1000) rotateY(180deg);
+    }
+    
+    .flip-cards li:hover .card-back {
+        z-index: 950;
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        -webkit-transform: perspective(1000) rotateY(0deg);
+        -moz-transform: perspective(1000) rotateY(0deg);
+        -ms-transform: perspective(1000) rotateY(0deg);
+        -o-transform: perspective(1000) rotateY(0deg);
+        transform: perspective(1000) rotateY(0deg);
+    }
+    
+    .flip-cards .card-front,
+    .flip-cards .card-back {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transition: -webkit-transform 1.5s;
+        -moz-transition: -moz-transform 1.5s;
+        -o-transition: -o-transform 1.5s;
+        transition: transform 1.5s;
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .flip-cards .card-front {
+        -webkit-transform: perspective(1000) rotateY(0);
+        -moz-transform: perspective(1000) rotateY(0);
+        -ms-transform: perspective(1000) rotateY(0);
+        -o-transform: perspective(1000) rotateY(0);
+        transform: perspective(1000) rotateY(0);
+        z-index: 900;
+    }
+    
+    .flip-cards .card-back {
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        -o-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+        z-index: 800;
+    }
+    
+    .flip-cards .panel {
+        border: none;
+    }
+    
+    .flip-cards .panel p,
+    .flip-cards .panel a {
+        color: white;
+        font-family: 'Archivo', sans-serif;
+    }
+    
+    
+    .flip-cards li:first-child>.button {
+        background-color: #073b4cc2;
+    }
+    
+    .flip-cards li:first-child>.panel {
+        background-color: #073b4c;
+    }
+    
+    
+    .flip-cards li:nth-child(2)>.button {
+        background-color: #06d69ec4;
+    }
+    
+    .flip-cards li:nth-child(2)>.panel {
+        background-color: #06d6a0;
+    }
+    
+    
+    .flip-cards li:nth-child(3)>.button {
+        background-color: #f8ab7ee0;
+    }
+    
+    .flip-cards li:nth-child(3)>.panel {
+        background-color: #f8ab7e;
+    }
+    
+    
+    .flip-cards li:nth-child(4)>.button {
+        background-color: #ef476ece;
+    }
+    
+    .flip-cards li:nth-child(4)>.panel {
+        background-color: #ef476f;
+    }
+    
+    
+    .flip-cards li:nth-child(5)>.button {
+        background-color: #118ab2d5;
+    }
+    
+    .flip-cards li:nth-child(5)>.panel {
+        background-color: #118ab2;
+    }
+    
+    
+    .flip-cards li:last-child>.button {
+        background-color: #8d0801ce;
+    }
+    
+    .flip-cards li:last-child>.panel {
+        background-color: #8d0801e1;
+        color: white;
+    }
+}
+
+
+/*@media only screen and ( max-width: 753px ) {
+    
+	.flip-cards li {
+		width: 50%;
+	}
+}*/

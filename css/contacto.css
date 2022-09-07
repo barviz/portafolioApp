@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Donegal+One&family=Marko+One&family=Sulphur+Point:wght@700&family=Tenor+Sans&display=swap');
+
+@media screen and (min-width: 992px) {
+
+    #contacto {
+        min-height: 100vh;
+        padding: 100px 20px;
+    }
+
+    #contacto h2 {
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    .contacto__panel {
+        display: flex;
+        padding: 10px;
+        width: 1000px;
+        margin: 0 auto;
+        background-color: #ee439981;
+    }
+
+    .contacto__panel p {
+        font-family: 'Tenor Sans', sans-serif;
+        color: #7c0742;
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        width: 400px;
+        text-align: center;
+        width: 50%;
+        padding: 2rem;
+    }
+
+    .contacto__panel-img {
+        width: 50%;
+    }
+
+    .contacto__panel-img img {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contacto__panel-form {
+        width: 60%;
+        border: 0.13rem solid #ee439950;
+        border-radius: 10px;
+        padding: 50px;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .contacto__panel-form h4 {
+        font-family: 'Coiny', cursive;
+        font-size: 2rem;
+        color: #ee4399;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .contacto__panel-form button {
+        width: 100%;
+    }
+
+    .input-message-error {
+        color: red;
+        font-weight: bold;
+    }
+
+    form label {
+        display: inline-block;
+        margin-bottom: 6px;
+        font-family: 'Sulphur Point', sans-serif;
+        font-size: 1.2rem;
+        color: #d11071d2;
+    }
+
+    form .input-container {
+        margin-bottom: 16px;
+    }
+
+    form .form-control {
+        display: block;
+        width: 100%;
+        padding: 7px 12px;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background: #fff;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        font-family: 'Donegal One', serif;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    #contacto {
+        min-height: 100vh;
+        padding: 50px 10px;
+    }
+
+    #contacto h2 {
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    .contacto__panel {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ee439981;
+    }
+
+    .contacto__panel p {
+        font-family: 'Tenor Sans', sans-serif;
+        color: #7c0742;
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    .contacto__panel-img {
+        width: 100%;
+    }
+
+    .contacto__panel-img img {
+        width: 100%;
+        padding: 0 10px 10px 10px;
+    }
+
+    .contacto__panel-form {
+        width: 100%;
+        border: 0.13rem solid #ee439950;
+        border-radius: 10px;
+        padding: 25px;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .contacto__panel-form h4 {
+        font-family: 'Coiny', cursive;
+        font-size: 2rem;
+        color: #ee4399;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .contacto__panel-form button {
+        width: 100%;
+    }
+
+    .input-message-error {
+        color: red;
+        font-weight: bold;
+    }
+
+    form label {
+        display: inline-block;
+        margin-bottom: 6px;
+        font-family: 'Sulphur Point', sans-serif;
+        font-size: 1.2rem;
+        color: #d11071d2;
+    }
+
+    form .input-container {
+        margin-bottom: 16px;
+    }
+
+    form .form-control {
+        display: block;
+        width: 100%;
+        padding: 7px 10px;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background: #fff;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        font-family: 'Donegal One', serif;
+    }
+
+}

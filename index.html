@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./img/icono1.png" type="image/x-icon" />
+  <title> BV | Portafolio </title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/me.css" />
+  <link rel="stylesheet" href="./css/skills.css" />
+  <link rel="stylesheet" href="./css/hobbies.css" />
+  <link rel="stylesheet" href="./css/formacion.css" />
+  <link rel="stylesheet" href="./css/proyectos.css" />
+  <link rel="stylesheet" href="./css/contacto.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/fondo.css" />
+  <link rel="stylesheet" href="./fonts/barbie.ttf" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+
+  <header id="header__container" class="fondo__animado-header">
+
+    <nav id="header__navegacion">
+
+      <div class="container">
+
+        <a href="#header__container">
+          <h1 class="header__logo">Bárbara Vizgarra</h1>
+        </a>
+
+        <ul class="header__enlaces">
+          <li><a href="#me" class="header__enlace">Sobre Mi</a></li>
+          <li><a href="#skills" class="header__enlace">Skills</a></li>
+          <li><a href="#hobbies" class="header__enlace">Hobbies</a></li>
+          <li><a href="#formacion" class="header__enlace">Formación</a></li>
+          <li><a href="#proyectos" class="header__enlace">Proyectos</a></li>
+          <li><a href="#contacto" class="header__enlace">barbaravizgarra@gmail.com</a></li>
+        </ul>
+
+      </div>
+
+
+    </nav>
+
+    <div id="header__info">
+
+      <div class="container">
+
+
+
+        <div class="header__info-row">
+
+          <div class="header__info-row-title" data-aos="fade-right" data-aos-duration="2000">
+
+            <div class="header__info-name-img">
+              <img src="./img/name.png">
+            </div>
+
+            <p class="large">Full Stack Web Developer, actualmente participando del proyecto Oracle ONE en
+              Alura Latam.</p>
+
+            <a href="https://github.com/barviz" class="btn btn-round btn-dark" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/barbara-vizgarra/" class="btn btn-round btn-dark"
+              target="_blank">Linkedin</a>
+            <a href="./doc/cv-barbara-vizgarra.pdf" class="btn btn-round btn-dark" target="_blank">Currículum</a>
+
+          </div>
+
+          <div class="header__info-row-img" data-aos="zoom-in" data-aos-duration="2000">
+
+            <img src="./img/avatar.png" alt="" />
+
+          </div>
+
+        </div>
+
+        <div class="speaker"></div>
+
+        <audio id="player">
+          <source src="./audio/audio.mp3" type="audio/mp3" />
+        </audio>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <section id="me" class="fondo__animado-me">
+
+    <div class="container" data-aos="zoom-in" data-aos-duration="2500">
+
+      <h2 class="font-barbie">Sobre Mi</h2>
+
+      <p>
+        Hola! Mi nombre es Bárbara. Estoy muy interesada en insertarme en el ambiente IT.
+        Considero que me abriría un horizonte de posibilidades muy grande para desarrollarme tanto personal como
+        profesionalmente.
+        Como persona apasionada por la tecnología me encuentro actualmente formando parte de programas de formación en
+        programación con perspectiva social y de género orientados a reducir las brechas de la desigualdad.
+        Gracias a ellos he descubierto una nueva forma de pensar, más organizada y lógica lo que me motiva a crear
+        cosas
+        nuevas y lograr transformar mi vida.
+        Te invito a conocer más de mí en las demás secciones o si necesitas más información, no dudes en preguntarme.
+        Gracias por visitar mi portfolio!
+      </p>
+
+    </div>
+
+  </section>
+
+  <section id="skills" class="fondo__animado-skills">
+
+    <div class="container">
+
+      <h2 data-aos="zoom-in" data-aos-duration="2000" class="font-barbie">Skills</h2>
+
+      <div class="skills__wrapper">
+
+        <div class="skills__card angular">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">Angular</div>
+        </div>
+
+        <div class="skills__card css">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">CSS</div>
+        </div>
+
+        <div class="skills__card bootstrap">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">Bootstrap</div>
+        </div>
+
+        <div class="skills__card git">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">Git & GitHub</div>
+        </div>
+
+        <div class="skills__card html">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">HTML</div>
+        </div>
+
+        <div class="skills__card java">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">Java</div>
+        </div>
+
+        <div class="skills__card js">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">JavaScript</div>
+        </div>
+
+        <div class="skills__card mysql">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">MySql</div>
+        </div>
+
+        <div class="skills__card react">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">React</div>
+        </div>
+
+        <div class="skills__card spring">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">Spring Boot</div>
+        </div>
+
+        <div class="skills__card thymeleaf">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">Thymeleaf</div>
+        </div>
+
+        <div class="skills__card typescript">
+          <div class="skills__circle">
+            <div class="circle__bar"></div>
+            <div class="circle__box">
+              <div class="circle__span"></div>
+            </div>
+          </div>
+          <div class="skills__text">Typescript</div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="hobbies" class="fondo__animado-hobbies">
+
+    <div class="container">
+
+      <h2 data-aos="zoom-in" data-aos-duration="2000" class="font-barbie">Hobbies</h2>
+
+      <div class="hobbies__grids">
+
+        <div class="hobbies__card-one">
+
+          <div class="hobbies__card">
+
+            <div class="card__side card__side--front" id="front-1">
+              <div class="text__box">
+                <h3 class="text__box-top">Ver al *se pone de pie*:</h3>
+                <h1 class="text__box-middle">Club Atlético<br>River Plate</h1>
+                <h3 class="text__box-lower">(y va el tercero❤️)</h3>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hobbies__card-two">
+
+          <div class="hobbies__card">
+
+            <div class="card__side card__side--front" id="front-2">
+              <div class="text__box">
+                <h3 class="text__box-top">Leer:</h3>
+                <h1 class="text__box-middle">Comics</h1>
+                <h3 class="text__box-lower">(de DC🦾)</h3>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hobbies__card-three">
+
+          <div class="hobbies__card">
+
+            <div class="card__side card__side--front" id="front-3">
+              <div class="text__box">
+                <h3 class="text__box-top">Jugar con:</h3>
+                <h1 class="text__box-middle">los Caniches</h1>
+                <h3 class="text__box-lower">(y manosearlos 😏)</h3>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hobbies__card-four">
+
+          <div class="hobbies__card">
+
+            <div class="card__side card__side--front" id="front-4">
+              <div class="text__box">
+                <h3 class="text__box-top">Comer:</h3>
+                <h1 class="text__box-middle">Pizza</h1>
+                <h3 class="text__box-lower">(con papitas 🍟)</h3>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hobbies__card-five">
+
+          <div class="hobbies__card">
+
+            <div class="card__side card__side--front" id="front-5">
+              <div class="text__box">
+                <h3 class="text__box-top">Mirar:</h3>
+                <h1 class="text__box-middle">Memes de</br>Animalitos</h1>
+                <h3 class="text__box-lower">(en internet 🐦)</h3>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hobbies__card-six">
+
+          <div class="hobbies__card">
+
+            <div class="card__side card__side--front" id="front-6">
+              <div class="text__box">
+                <h3 class="text__box-top">Irme a:</h3>
+                <h1 class="text__box-middle">Mimir</h1>
+                <h3 class="text__box-lower">(😴)</h3>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hobbies__card-seven">
+
+          <div class="hobbies__card">
+
+            <div class="card__side card__side--front" id="front-7">
+              <div class="text__box">
+                <h3 class="text__box-top">Mirar mis pelis favs:</h3>
+                <h1 class="text__box-middle">Man of Steel, <br>Batman v Superman, <br>Zack Snyder's Justice League
+                </h1>
+                <h3 class="text__box-lower">(tkm zack snyder❤️)</h3>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="formacion" class="fondo__animado-formacion">
+
+    <div class="container">
+
+      <h2 data-aos="zoom-in" data-aos-duration="2000" class="font-barbie">Formacion Academica</h2>
+
+      <div class="formacion__cards">
+
+        <ul class="flip-cards">
+
+          <li ontouchstart="this.classList.toggle('hover');">
+
+            <div class="large button card-front">
+              <a>ONE: Oracle Next Education</br>Oracle/AluraLatam</a>
+              <small class="clear"></br>Abr/2022 - Dic/2022</small>
+            </div>
+
+            <div class="panel card-back">
+              <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank">
+                <p>HTML, CSS, JavaScript.</br>
+                  FlexBox, CSS Grid.</br>
+                  Java, Java POO, JDBC, Spring Boot.</br>
+                  MySQL.</br>
+                  Phyton.</br>
+                  Infra.</br>
+                  Oracle Cloud Infrastucture (OCI).</p>
+              </a>
+            </div>
+
+          </li>
+
+          <li ontouchstart="this.classList.toggle('hover');">
+
+            <div class="large button card-front">
+              <a>Codo a Codo: Testing/QA</br>Ministerio de Educación e Innovación</a>
+              <small class="clear"></br>Ago/2022 - Dic/2022</small>
+            </div>
+
+            <div class="panel card-back">
+              <a href="https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/" target="_blank">
+                <p>Testing Automatizado y QA (Control de Calidad de Software)</p>
+              </a>
+            </div>
+
+          </li>
+
+          <li ontouchstart="this.classList.toggle('hover');">
+
+            <div class="large button card-front">
+              <a>Argentina Programa:</br>#YoProgramo</br>Ministerio de Desarrollo Productivo</a>
+              <small class="clear"></br>Nov/2021 - Jul/2022</small>
+            </div>
+
+            <div class="panel card-back">
+              <a href="https://www.argentina.gob.ar/produccion/argentina-programa/segunda-etapa" target="_blank">
+                <p>Metodologías ágiles: SCRUM. Git & Github.</br>
+                  Front End Estático: HTML, CSS, Boostrap, y Javascript.</br>
+                  Front End - Desarrollo Web Dinámico: Angular.</br>
+                  Bases de datos: MySQL.</br>
+                  Backend: Java, Java POO, Spring Framework, Spring boot, Spring Security JWT.</p>
+              </a>
+            </div>
+
+          </li>
+
+          <li ontouchstart="this.classList.toggle('hover');">
+
+            <div class="large button card-front">
+              <a>Proyecto T.Tec</br>Ministerio de Trabajo, Empleo y Seguridad Social</a>
+              <small class="clear"></br>Oct/2021 - Jun/2022</small>
+            </div>
+
+            <div class="panel card-back">
+              <a href="https://www.argentina.gob.ar/noticias/proyecto-trabajo-tecnologia-programacion-full-stack"
+                target="_blank">
+                <p>Programación Orientada a Objetos: JAVA.</br>
+                  Bases de Datos: MySQL.</br>
+                  Programación Back-end en JAVA con Spring y Thymeleaf.</br>
+                  Programación Front-end con Javascript y React.</p>
+              </a>
+            </div>
+
+          </li>
+
+          <li ontouchstart="this.classList.toggle('hover');">
+
+            <div class="large button card-front">
+              <a>Argentina Programa:</br>#Inglés</br>Ministerio de Desarrollo Productivo</a>
+              <small class="clear"></br>Mar/2022 - Jun/2022</small>
+            </div>
+
+            <div class="panel card-back">
+              <a href="https://www.argentina.gob.ar/ingles-para-desarrollo-de-software" target="_blank">
+                <p>Curso de Ingles para Desarrollo de Software.</br>
+                  Objetivo: brindar herramientas para ser aplicadas en el contexto del desarrollo de software e IT en
+                  general.</p>
+              </a>
+            </div>
+
+          </li>
+
+          <li ontouchstart="this.classList.toggle('hover');">
+
+            <div class="large button card-front">
+              <a>Argentina Programa:</br>#SeProgramar</br>Ministerio de Desarrollo Productivo</a>
+              <small class="clear"></br>Abr/2021 - Jun/2021</small>
+            </div>
+
+            <div class="panel card-back">
+              <a href="https://www.argentina.gob.ar/produccion/argentina-programa/primera-etapa" target="_blank">
+                <p>Fundamentos con Gobstones (lenguaje específicamente creado).</br>
+                  Programación Imperativa con JavaScript.</br>
+                  Programación Orientada a Objetos con Ruby.</p>
+              </a>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="proyectos" class="fondo__animado-proyectos">
+
+    <div class="container">
+
+      <h2 data-aos="zoom-in" data-aos-duration="2000" class="font-barbie">Experiencia Profesional</h2>
+
+      <div class="proyectos__box-big">
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://raw.githubusercontent.com/barviz/portfolio-fronted/master/src/assets/img/proyecto/portfolio.jpg"
+            alt="portfolio web">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Portfolio Web</div>
+
+            <div class="description show-animate">
+              Aplicación de arquitectura distribuida con diseño de interfaz de usuario, una base de datos y APIs para
+              proveer a través de internet la información.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/portfolio-backend" target="_blank"
+                class="item show-item">Repositorio</a>
+              <a href="https://portfoliobv-8f3dd.web.app" target="_blank" class="item show-item">Ver Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://raw.githubusercontent.com/barviz/portfolio-fronted/master/src/assets/img/proyecto/climaapp.jpg"
+            alt="clima app">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">ClimaApp</div>
+
+            <div class="description show-animate">
+              Aplicación que muestra el pronóstico del tiempo de 7 días.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/climaApp" target="_blank" class="item show-item">Repositorio</a>
+              <a href="https://clima-app-blv.netlify.app/" target="_blank" class="item show-item">Ver Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://user-images.githubusercontent.com/96797843/183224790-fb06c2fe-2d96-408d-8243-2cb3c3094e47.png"
+            alt="peluquería canina">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Peluquería Canina</div>
+
+            <div class="description show-animate">
+              Proyecto de front-end donde se desarrolla una página web básica.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/peluqueria-canina" target="_blank"
+                class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/peluqueria-canina/index.html" target="_blank" class="item show-item">Ver
+                Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://user-images.githubusercontent.com/96797843/183271908-ca061f7d-e901-4747-a45a-f47e6a2bec03.png"
+            alt="clínica nutrición">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Clínica Nutrición</div>
+
+            <div class="description show-animate">
+              Proyecto de front-end donde se desarrollan funcionalidades para que los usuarios de los stores de esta
+              clínica puedan gestionar a los pacientes.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/clinica-nutricion" target="_blank"
+                class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/clinica-nutricion/index.html" target="_blank" class="item show-item">Ver
+                Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://user-images.githubusercontent.com/96797843/183551410-64847fa8-ffd6-4478-837d-9ba5d5f5058a.png"
+            alt="encriptador">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Encriptador</div>
+
+            <div class="description show-animate">
+              Challenge ONE - Lógica de Programación - Encriptador de Texto
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/encriptadorApp" target="_blank" class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/encriptadorApp/" target="_blank" class="item show-item">Ver Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://user-images.githubusercontent.com/96797843/184508536-e529bcfe-6112-4e3c-a3ea-5cf0f28fafa4.png"
+            alt="juego del ahorcado">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Ahorcado</div>
+
+            <div class="description show-animate">
+              Challenge ONE - Lógica de Programación - Juego del Ahorcado.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/ahorcadoApp" target="_blank" class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/ahorcadoApp/" target="_blank" class="item show-item">Ver Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://user-images.githubusercontent.com/96797843/184732678-7db8da3a-c566-4bc7-bef7-ab4630244d15.png"
+            alt="mini market">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Mini Market</div>
+
+            <div class="description show-animate">
+              Proyecto de front-end donde se desarrolla un sitio web responsivo con Flexbox.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/mini-market" target="_blank" class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/mini-market/index.html" target="_blank" class="item show-item">Ver
+                Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://user-images.githubusercontent.com/96797843/185273461-877b3d9c-2557-4e32-95d7-fd8ed461e8d9.png"
+            alt="tienda virtual">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Tienda Virtual</div>
+
+            <div class="description show-animate">
+              Proyecto de front-end donde se desarrolla un sitio web responsivo con CSS Grid.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/tienda-virtual" target="_blank" class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/tienda-virtual/index.html" target="_blank" class="item show-item">Ver
+                Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://user-images.githubusercontent.com/96797843/185724056-4255827b-d9fc-4f95-8e6a-71ac08b7a6b5.png"
+            alt="servicio internet">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Servicio Internet</div>
+
+            <div class="description show-animate">
+              Proyecto de front-end donde se desarrolla un layout responsivo.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/servicio-internet" target="_blank"
+                class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/servicio-internet/index.html" target="_blank" class="item show-item">Ver
+                Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://user-images.githubusercontent.com/96797843/188965994-f02f8a0a-530f-4dd5-8afb-e241c6dbe90b.png"
+            alt="recetario alimenticio">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Recetario Alimenticio</div>
+
+            <div class="description show-animate">
+              Proyecto de front-end donde se desarrolla una página web haciendo hincapié en la arquitectura CSS
+              utilizando metodologías como Atomic Design y BEM.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/recetario-alimenticio" target="_blank"
+                class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/recetario-alimenticio/" target="_blank" class="item show-item">Ver
+                Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://user-images.githubusercontent.com/96797843/187095997-9500087f-1cec-4aba-b95e-4b4d3810ddfd.png"
+            alt="lista de tareas">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">To Do List</div>
+
+            <div class="description show-animate">
+              Proyecto de front-end donde se desarrolla una lista de tareas haciendo hincapié en el funcionamiento de
+              una API de almacenamiento.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/to-do-list" target="_blank" class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/to-do-list/" target="_blank" class="item show-item">Ver Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://user-images.githubusercontent.com/96797843/187549205-9d938652-127f-4381-92c1-7045d963ec23.png"
+            alt="lavadería crud">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Lavandería Crud</div>
+
+            <div class="description show-animate">
+              Proyecto de front-end donde se desarrolla un CRUD con JavaScript asíncrono.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/lavanderia-crud" target="_blank" class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/lavanderia-crud/" target="_blank" class="item show-item">Ver Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="https://user-images.githubusercontent.com/96797843/187979491-eb572c6e-7603-462d-9170-0a35331b257f.png"
+            alt="lavandería form">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Lavandería Form</div>
+
+            <div class="description show-animate">
+              Proyecto de front-end donde se trabaja la validación de formularios utilizando herramientas de HTML5 y
+              validaciones propias customizadas utilizando técnicas actuales con JavaScript.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/lavanderia-valid-form" target="_blank"
+                class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/lavanderia-valid-form/registro" target="_blank"
+                class="item show-item">Ver Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="proyecto__box">
+
+          <img class="proyecto__img"
+            src="./img/contacto/portafolio.png"
+            alt="portafolio">
+
+          <div class="proyecto__box-content">
+
+            <div class="item">Portafolio</div>
+
+            <div class="description show-animate">
+              Challenge ONE - Front End - Portafolio.
+            </div>
+
+            <div class="interactive">
+              <a href="https://github.com/barviz/portafolio" target="_blank" class="item show-item">Repositorio</a>
+              <a href="https://barviz.github.io/portafolio" target="_blank" class="item show-item">Ver Demo</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contacto" class="fondo__animado-contacto">
+
+    <div class="container">
+
+      <h2 data-aos="zoom-in" data-aos-duration="2000" class="font-barbie">Contacto</h2>
+
+      <div class="contacto__panel">
+
+        <p>
+          ¿Querés contactarme?</br>Completá el siguiente formulario y me pondré en contacto lo antes posible.</br>💗
+        </p>
+
+        <div class="contacto__panel-img">
+          <img src="/img/contacto/contacto.png" alt="imagen contacto" />
+        </div>
+
+      </div>
+
+      <div class="contacto__panel-form">
+
+        <h4>Contáctame!</h4>
+
+        <form action="https://formsubmit.co/357b30e127dc1c9a24516549cf4a8f" method="POST" class="formulario-contenedor">
+
+          <div class="input-container">
+            <label class="input-label" for="name">Nombre</label>
+            <input class="input form-control" name="name" id="name" type="text" placeholder="Nombre" required
+              data-tipo="nombre">
+            <span class="input-message-error"></span>
+          </div>
+
+          <div class="input-container">
+            <label class="input-label" for="email">Email</label>
+            <input class="input form-control" name="email" id="email" type="email" placeholder="Email" required
+              data-tipo="email">
+            <span class="input-message-error"></span>
+          </div>
+
+          <div class="input-container">
+            <label class="input-label" for="asunto">Asunto</label>
+            <input class="input form-control" name="asunto" id="asunto" type="text" placeholder="Asunto" required
+              data-tipo="asunto" />
+            <span class="input-message-error"></span>
+          </div>
+
+          <div class="input-container">
+            <label class="input-label" for="mensaje">Mensaje</label>
+            <textarea class="textarea form-control" name="mensaje" id="mensaje" type="text" cols="30" rows="5"
+              maxlength="301" placeholder="Escriba aquí su mensaje" required data-tipo="mensaje"></textarea>
+            <span class="input-message-error"></span>
+          </div>
+
+          <button class="button btn btn-dark" type="submit">Enviar</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer id="footer" class="fondo">
+    <div class="container autor">
+      <p>©2022 Bárbara Vizgarra | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="./js/circle-progress.js"></script>
+  <script src="./js/app.js" type="module"></script>
+  <script src="./js/animacion-header.js"></script>
+  <script src="./js/audio.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>

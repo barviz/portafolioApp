@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+@media screen and (min-width: 992px) {
+
+	#me {
+		padding: 100px 200px;
+		text-align: center;
+		height: 100vh;
+	}
+
+	#me h2 {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+
+	#me p {
+		color: #7c0742;
+		font-family: 'Handlee', cursive;
+		font-size: 1.3rem;
+		padding-bottom: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+	#me {
+		text-align: center;
+		height: 100vh;
+	}
+
+	#me h2 {
+		padding-top: 70px;
+		padding-bottom: 20px;
+	}
+
+	#me p {
+		color: #7c0742;
+		font-family: 'Handlee', cursive;
+		font-size: 1.1rem;
+		padding-bottom: 5px;
+	}
+
+
+}
